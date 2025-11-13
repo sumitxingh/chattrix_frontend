@@ -26,12 +26,12 @@ export default function RegisterPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (formData.password !== formData.confirmPassword) {
       alert("Passwords do not match!");
       return;
     }
-    
+
     // TODO: Implement registration logic
     console.log("Registration attempt:", {
       email: formData.email,
@@ -53,7 +53,9 @@ export default function RegisterPage() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 px-4 py-12 dark:bg-black">
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1">
-          <CardTitle className="text-2xl font-bold">Create an account</CardTitle>
+          <CardTitle className="text-2xl font-bold">
+            Create an account
+          </CardTitle>
           <CardDescription>
             Enter your information to create a new account
           </CardDescription>
@@ -127,4 +129,3 @@ export default function RegisterPage() {
     </div>
   );
 }
-

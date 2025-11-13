@@ -1,0 +1,48 @@
+import { LanguageOption } from "./types";
+
+export const availableLanguages: LanguageOption[] = [
+  { value: "en", label: "English", code: "EN" },
+  { value: "es", label: "Spanish", code: "ES" },
+  { value: "fr", label: "French", code: "FR" },
+  { value: "ja", label: "Japanese", code: "JA" },
+  { value: "de", label: "German", code: "DE" },
+  { value: "zh", label: "Mandarin", code: "ZH" },
+  { value: "it", label: "Italian", code: "IT" },
+  { value: "pt", label: "Portuguese", code: "PT" },
+  { value: "ru", label: "Russian", code: "RU" },
+  { value: "ko", label: "Korean", code: "KO" },
+  // Indian Languages
+  { value: "hi", label: "Hindi", code: "HI" },
+  { value: "ta", label: "Tamil", code: "TA" },
+  { value: "te", label: "Telugu", code: "TE" },
+  { value: "bn", label: "Bengali", code: "BN" },
+  { value: "mr", label: "Marathi", code: "MR" },
+  { value: "gu", label: "Gujarati", code: "GU" },
+  { value: "kn", label: "Kannada", code: "KN" },
+  { value: "ml", label: "Malayalam", code: "ML" },
+  { value: "pa", label: "Punjabi", code: "PA" },
+  { value: "ur", label: "Urdu", code: "UR" },
+  // Other Languages
+  { value: "ar", label: "Arabic", code: "AR" },
+  { value: "tr", label: "Turkish", code: "TR" },
+  { value: "pl", label: "Polish", code: "PL" },
+  { value: "nl", label: "Dutch", code: "NL" },
+  { value: "sv", label: "Swedish", code: "SV" },
+  { value: "da", label: "Danish", code: "DA" },
+  { value: "no", label: "Norwegian", code: "NO" },
+  { value: "fi", label: "Finnish", code: "FI" },
+  { value: "el", label: "Greek", code: "EL" },
+  { value: "he", label: "Hebrew", code: "HE" },
+  { value: "th", label: "Thai", code: "TH" },
+  { value: "vi", label: "Vietnamese", code: "VI" },
+  { value: "id", label: "Indonesian", code: "ID" },
+  { value: "ms", label: "Malay", code: "MS" },
+  { value: "cs", label: "Czech", code: "CS" },
+  { value: "hu", label: "Hungarian", code: "HU" },
+  { value: "ro", label: "Romanian", code: "RO" },
+  { value: "uk", label: "Ukrainian", code: "UK" },
+  { value: "bg", label: "Bulgarian", code: "BG" },
+  { value: "hr", label: "Croatian", code: "HR" },
+];
+
+export const emojiReactions = ["👍", "❤️", "😂", "😮", "😢", "🙏"];

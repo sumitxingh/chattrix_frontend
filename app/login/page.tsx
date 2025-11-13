@@ -14,6 +14,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Loader2 } from "lucide-react";
+import { LoadingSpinner } from "@/components/shared/LoadingSpinner";
 
 export default function LoginPage() {
   const router = useRouter();
